@@ -1,25 +1,31 @@
-## HOW TO RUN THIS PROJECT
-- Install Python(3.7.6) (Dont Forget to Tick Add to Path while installing Python)
-- Open Terminal and Execute Following Commands :
-```
-python -m pip install -r requirements. txt
-```
-- Download This Project Zip Folder and Extract it
-- Move to project folder in Terminal. Then run following Commands :
-```
-py manage.py makemigrations
-py manage.py migrate
-py manage.py runserver
-```
-- Now enter following URL in Your Browser Installed On Your Pc
-```
-http://127.0.0.1:8000/
-```
+# Online Quiz System
 
-## CHANGES REQUIRED FOR CONTACT US PAGE
-- In settins.py file, You have to give your email and password
-```
-EMAIL_HOST_USER = 'youremail@gmail.com'
-EMAIL_HOST_PASSWORD = 'your email password'
-EMAIL_RECEIVING_USER = 'youremail@gmail.com'
-```
+A Django-based online quiz application with quiz workflows and a contact form.
+
+## Tech stack
+- Python
+- Django
+- SQLite / Django ORM
+
+## Run locally
+
+    git clone https://github.com/madhuarigela/OnlineQuizeSystem-main.git
+    cd OnlineQuizeSystem-main
+    python -m venv venv
+    pip install -r requirements.txt
+    python manage.py migrate
+    python manage.py runserver
+
+Open the local URL shown by Django, normally http://127.0.0.1:8000/.
+
+## Configuration
+
+If you use the contact form, configure email settings locally. Do not commit real email passwords, API keys, or other credentials.
+
+## Project purpose
+
+An academic/project implementation demonstrating Python, Django, database-backed web development, and server-side application structure.
+
+## Author
+
+Madhu Arigela — GitHub: https://github.com/madhuarigela
